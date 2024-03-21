@@ -42,6 +42,7 @@ body{
     width:calc(100% - 10px);
     height:225px;
     background-image: url("https://st2.depositphotos.com/1005563/7107/i/450/depositphotos_71074931-stock-photo-wooden-gavel-barrister.jpg");
+    filter: grayscale(100);
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center center;
@@ -138,6 +139,8 @@ body{
 }
 
 #tel{
+    display: flex;
+    flex-direction: row;
     margin-left:2em;
     margin-bottom: 1em;
 }
