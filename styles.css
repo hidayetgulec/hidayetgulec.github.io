@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+:root{
+    --bg:#ffffff;
+}
+
+html{
+    height: max-content;
+}
+body{
+    
+    font-family: 'Mukta', sans-serif;
+    background:linear-gradient(to bottom,#ffffffd2, #000000);
+    
+    
+;
+}
+
+.container{
+    min-height: 100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 40px;
+}
+.flex-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center; 
+    width:300px;
+    height: min-content;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.top-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:calc(100% - 10px);
+    height:225px;
+    background-image: url("https://st2.depositphotos.com/1005563/7107/i/450/depositphotos_71074931-stock-photo-wooden-gavel-barrister.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    border:5px solid #ffffff;
+    border-radius:5px;
+}  
+.top-container img{
+    height:110px;
+    width:110px;
+    border-radius: 50%;
+    border:5px solid #f3f9ff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:220px 0px 0px 0px;
+    z-index: 1;
+    object-fit:cover;
+}
+.bottom-container{
+    /* border: 1px solid black; */
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:var(--bg);
+    width:100%;
+    /* height:calc(480px - 225px); */
+    max-height: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.bio{
+    text-align:center;
+    margin: 0 20px 0 20px;
+
+
+}
+
+.bio p{
+    margin: 0 0 0 0;
+    box-sizing: content-box;
+}
+.bottom-container-icon i{
+    font-size:20px;
+    border-radius: 50%;
+    padding:10px;
+    margin:10px 2px 0 2px;
+    text-align: center;
+    transition:.5s;
+}
+.bottom-container-icon i:hover{
+    cursor: pointer;
+    background-color: #6e899e;
+}
+.bottom-container button{
+    margin:10px;
+    padding:10px;
+    width:80%;
+    border-radius:30px;
+    border: 3px solid #6e899e;
+    color:#111010;
+    background:var(--bg);
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:.5s;
+    font-weight: 900;
+}
+.bottom-container button:hover{
+    cursor: pointer;
+    background-color:#6e899e;
+    border: 3px solid #151413c7;  
+}
+
+.services{
+    display: flex;
+    flex-direction: row;
+    border-top:1px solid #6e899e ;
+    border-bottom:1px solid #6e899e ; ;
+}
+
+.iletisim{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 2px 2px 2px;
+    font-size: small;
+    justify-content:center;
+}
+
+#adres{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+#tel{
+    margin-left:2em;
+    margin-bottom: 1em;
+}
+.bottom-container h1{
+    margin:80px 0px 0px 0px;
+}
+.bottom-container h3{
+    margin:0px;
+}
+@media only screen and (max-width: 1024px){
+    .flex-container{
+        width:300px;
+        height:min-content;
+    }
+}
+@media only screen and (max-width: 630px){
+    .flex-container{
+        width:300px;
+        height:min-content;
+    }
+}
+
+
+.contact-form{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+.contact-form form{
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#submit{
+    font-family: 'Mukta',sans-serif;
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: beige;
+    
+}
+
+
+.service-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+    
+}
+.service{
+    width: 100px !important;
+    height: 100px;
+    box-sizing: content-box;
+    font-family: 'Mukta', sans-serif !important;
+    font-size: 16px !important;
+    
+
+}
+

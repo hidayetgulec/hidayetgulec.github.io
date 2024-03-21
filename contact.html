@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-container">
+            
+            <div class="top-container">
+                <img src="https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+
+
+
+            <div class="bottom-container">
+                <h1 style="margin-top: 10px;">Hidayet GÜLEÇ</h1>
+                <div class="contact-form">
+                    <h2>Contact</h2>
+                    <form action="/submit-form" method="post">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email.." required>
+                
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+                
+                        <input id='submit' type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
