@@ -13,3 +13,5 @@ order: 4
 
 
 <center>Bu blogda da bu işi yapacağım...<center>
+
+<center>...<center>
